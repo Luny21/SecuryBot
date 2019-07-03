@@ -15,7 +15,7 @@ const bd2 = JSON.parse(fs.readFileSync("./bd2.json", "utf8"))
     }
 
 const client = new Discord.Client()
-client.login("NTk1MzUwNzQ3ODE4NzU0MDU0.XRp-3g.zD7wDtDTVlUNwUaId67-YgCgtpw");
+client.login(prosses.ENV.TOKEN);
 client.on("ready", () => {
     console.log("Le bot a démaréer avec succèes !")
 })
