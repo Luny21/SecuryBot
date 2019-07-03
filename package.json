@@ -1,0 +1,17 @@
+{
+  "name": "package",
+  "version": "0.0.1",
+  "description": "rien",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "moment": "^2.24.0",
+    "ytdl-core": "^0.29.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luny",
+  "license": "ISC"
+}
